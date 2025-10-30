@@ -24,4 +24,7 @@ public class CustomList {
         return cities.remove(city);
         //implement function for green testing phase
     }
+    public int countCities(){
+        return cities.size();
+    }
 }
