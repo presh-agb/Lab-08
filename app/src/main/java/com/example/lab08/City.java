@@ -17,6 +17,7 @@ public class City {
         return this.province;
     }
 
+    // this is a comment to make small change locally
     // To make "contains" work properly in tests
     @Override
     public boolean equals(Object o) {
