@@ -20,4 +20,8 @@ public class CustomList {
     public boolean hasCity(City city) {
         return cities.contains(city);
     }
+    public boolean deleteCity(City city){
+        return cities.remove(city);
+        //implement function for green testing phase
+    }
 }
